@@ -14,6 +14,10 @@ Functionalities<br/>
 Endpoints<br/>
 1) To post a transaction : 
     api/split -->includes multiple ways and settlement<br/>
+    For Equal user is counted by default<br />
+    In custom you can provide the exact amount which has to be assigned to any user<br />
+    For percent and custom you can provide arbitary values of distribution of share <br />
+    
 2) To check balance :<br/>
     api/balance/:userId<br/>
 3) To check balance sheet :<br/>
