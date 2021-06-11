@@ -21,10 +21,10 @@ INSERT INTO user (name,  phone) VALUES
   ('USERC', '33333');
   
 
-/*ALTER TABLE expense DROP CONSTRAINT IF EXISTS notification_ak
-ALTER TABLE expense DROP CONSTRAINT IF EXISTS notification_bk
+/*ALTER TABLE expense DROP CONSTRAINT  notification_ak
+ALTER TABLE expense DROP CONSTRAINT  notification_bk*/
 
   
 ALTER TABLE expense ADD CONSTRAINT notification_ak FOREIGN KEY (paid_to) REFERENCES user(id);
-ALTER TABLE expense ADD CONSTRAINT notification_bk FOREIGN KEY (paid_by) REFERENCES user(id);*/
+ALTER TABLE expense ADD CONSTRAINT notification_bk FOREIGN KEY (paid_by) REFERENCES user(id);
 
