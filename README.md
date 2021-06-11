@@ -29,8 +29,9 @@ Endpoints<br/>
 <br/>
 <br/>
 DB used is h2db and will be initialized by default<br/>
-DB can be accessed at http://localhost:8080/h2-console<br/>\
-I have commented out the foreign key relationship between user and expense as it does not supports to check existing FK so run time it throws duplicate FK exception<br/>
+DB can be accessed at http://localhost:8080/h2-console<br/>
+I have commented out the dropping foreign key relationship between user and expense as it does not supports to check existing FK so run time it throws duplicate FK exception, I am figuring a way to include this also at time of setup<br/>
+While again restarting the service that line can be commented out to make FK <br/>
 <br/>
 <br/>
 Custom Exceptions are implemented and SOLID design principles are used while designing the service<br/>
