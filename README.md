@@ -26,8 +26,13 @@ Endpoints<br/>
 <br/>
 <br/>
 DB used is h2db and will be initialized by default<br/>
-DB can be accessed at http://localhost:8080/h2-console
+DB can be accessed at http://localhost:8080/h2-console<br/>\
+I have commented out the foreign key relationship between user and expense as it does not supports to check existing FK so run time it throws duplicate FK exception<br/>
 <br/>
 <br/>
 Custom Exceptions are implemented and SOLID design principles are used while designing the service<br/>
 Postman collection link https://www.getpostman.com/collections/68dfc1e09bd74efc2373
+<br/>
+<br/>
+
+
