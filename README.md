@@ -22,7 +22,10 @@ Endpoints<br/>
     balance/:userId<br/>
 3) To check balance sheet :<br/>
     balance/sheet/:userId<br/>
-    If you owe to a user then balance will be negative corresponding to that otherwise positive
+    If you owe to a user then balance will be negative corresponding to that otherwise positive<br/>
+4) To add User : 
+     /user
+     By default three users are added by id 1,2,3 and can be used
 <br/>
 <br/>
 DB used is h2db and will be initialized by default<br/>
