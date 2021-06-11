@@ -22,12 +22,20 @@ Endpoints<br/>
     balance/:userId<br/>
 3) To check balance sheet :<br/>
     balance/sheet/:userId<br/>
-    If you owe to a user then balance will be negative corresponding to that otherwise positive
+    If you owe to a user then balance will be negative corresponding to that otherwise positive<br/>
+4) To add User : 
+     /user
+     By default three users are added by id 1,2,3 and can be used
 <br/>
 <br/>
 DB used is h2db and will be initialized by default<br/>
-DB can be accessed at http://localhost:8080/h2-console
+DB can be accessed at http://localhost:8080/h2-console<br/>\
+I have commented out the foreign key relationship between user and expense as it does not supports to check existing FK so run time it throws duplicate FK exception<br/>
 <br/>
 <br/>
 Custom Exceptions are implemented and SOLID design principles are used while designing the service<br/>
 Postman collection link https://www.getpostman.com/collections/68dfc1e09bd74efc2373
+<br/>
+<br/>
+
+
