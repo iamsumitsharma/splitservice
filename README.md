@@ -19,9 +19,9 @@ Endpoints<br/>
     For percent and custom you can provide arbitary values of distribution of share <br />
     
 2) To check balance :<br/>
-    api/balance/:userId<br/>
+    balance/:userId<br/>
 3) To check balance sheet :<br/>
-    api/balance/sheet/:userId<br/>
+    balance/sheet/:userId<br/>
     If you owe to a user then balance will be negative corresponding to that otherwise positive
 <br/>
 <br/>
